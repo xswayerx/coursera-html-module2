@@ -1,0 +1,109 @@
+     div{
+        background-color: #999999;
+        border:3px solid black;
+        margin-bottom: 15px;
+    }
+    
+    h1{
+        text-align:center;
+    }
+    #xx{
+          background-color: #D59898;
+          float: right;
+          margin-left: 100%;
+          border:2px solid black;
+          margin-top: 0px;
+          font-weight: 550; 
+          padding: 5px 20px 5px 20px;  
+          
+    }
+    #ii{
+        background-color: #c14543;
+          float: right;
+          margin-left: 100%;
+          border:2px solid black;
+          margin-top: 0px;
+          font-weight: 200; 
+          color: white;
+          padding: 5px 20px 5px 20px; 
+
+    }
+    #pp{
+        background-color: #e5d099;
+        float: right;
+        margin-left: 100%;
+        border:2px solid black;
+        margin-top: 0px;
+        font-weight: 400; 
+        padding: 5px 20px 5px 20px; 
+    }
+    
+    .a,.b,.c{
+      
+        top: 10%;
+        position : relative;}
+    *{
+        font-family: cursive;
+        margin:0px;
+        box-sizing: border-box;
+        
+    }
+@media (max-width:768px){
+    .a,.b,.c{
+      
+        
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+}
+        
+    
+   @media(min-width:768px) and (max-width:991px){ 
+    
+        .a{
+           width: 47%;
+           font-weight: 100;
+            float:right;
+            margin-left: 2%;
+        }
+        .b{
+            width: 47%;
+            font-weight: 100;
+            float:right;
+            margin-right: 2% ;
+        }
+        .c{
+            
+            margin-top:30% ;
+            font-weight: 100;
+            width: 94%;
+            margin-left: 2%;
+        }
+    }
+    @media(min-width:991px){
+            .a,.b,.c{
+                float: left ;
+            }
+
+        .a{        
+            width: 30%;
+            font-weight: 100;
+            margin-left: 30px;
+            margin-right: 20px;
+           
+         }
+         .b{
+             
+             width: 30%;
+             font-weight: 100;
+             
+
+         }
+         .c{
+            width: 30%;
+            font-weight: 100;
+            margin-left: 20px;
+            margin-right: 20px;
+            
+         }
+    }
